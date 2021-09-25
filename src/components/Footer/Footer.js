@@ -11,25 +11,25 @@ const Footer = () => {
 
     return (
         <footer>
-            <div id="contact" class="footer">
-                <div class="container">
-                    <div class="row pdn-top-30">
-                        <div class="col-md-12 ">
-                            <div class="footer-box">
-                                <div class="headinga">
-                                    <h3>Address</h3>
+            <div className="footer">
+                <div className="container">
+                    <div className="row pdn-top-30">
+                        <div className="col-md-12 ">
+                            <div className="footer-box">
+                                <div className="headinga">
+                                    <h3 id="address">Address</h3>
                                     <span>Mirpur, Dhaka-1216, Bangladesh</span>
                                     <p>(+88) 01869510882
                                         <br />nafiaiubian17@gmail.com</p>
                                 </div>
-                                <ul class="location_icon">
-                                    <li> <a href="https://www.facebook.com/nafi.king16/"><i class="fa fa-facebook-f"></i></a></li>
-                                    <li> <a href="https://twitter.com/MrNafiMahmud"><i class="fa fa-twitter"></i></a></li>
-                                    <li> <a href="https://www.instagram.com/dauntless_nafi/"><i class="fa fa-instagram"></i></a></li>
+                                <ul id="contact" className="location_icon">
+                                    <li> <a href="https://www.facebook.com/nafi.king16/"><i className="fa fa-facebook-f"></i></a></li>
+                                    <li> <a href="https://twitter.com/MrNafiMahmud"><i className="fa fa-twitter"></i></a></li>
+                                    <li> <a href="https://www.instagram.com/dauntless_nafi/"><i className="fa fa-instagram"></i></a></li>
 
                                 </ul>
-                                <div class="menu-bottom">
-                                    <ul class="link">
+                                <div className="menu-bottom">
+                                    <ul className="link">
                                         <li> <a href="#home">Home</a></li>
                                         <li> <a href="#meal">Meal Categories</a></li>
 
@@ -42,8 +42,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div class="copyright">
-                    <div class="container">
+                <div className="copyright">
+                    <div className="container">
                         <p>© {showYear} All Rights Reserved. Design By<a href="https://sourcecodebd.github.io/nafi.com/"> Nafi Mahmud</a></p>
                     </div>
                 </div>

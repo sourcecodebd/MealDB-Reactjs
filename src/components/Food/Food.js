@@ -2,7 +2,7 @@ import React from 'react';
 import './Food.css';
 
 const Food = (props) => {
-    console.log(props)
+    // console.log(props)
     const { strMeal, strCategory, strArea, strInstructions, strMealThumb } = props.meal || {}
 
     return (
@@ -14,6 +14,7 @@ const Food = (props) => {
                 <p className="description-p">{strInstructions}</p>
                 <div className="col-md-12">
                     <button onClick={() => props.showNameHandler(props.meal)} className="read-more">See Meal Name</button>
+                    <button onClick={() => props.quantityHandler(props.meal)} className="read-more">See Quantity</button>
                 </div>
             </div>
         </div>

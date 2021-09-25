@@ -32,68 +32,68 @@ const Slider = () => {
     }
 
     return (
-        <section class="slider_section" id="home">
-            <div id="myCarousel" class="carousel slide banner-main" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
+        <section className="slider_section" id="home">
+            <div id="myCarousel" className="carousel slide banner-main" data-ride="carousel">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
                         <div style={{ transform: 'translateX(20%)' }}>
-                            <img class="first-slide" style={{ width: '80%', transform: 'translateX(-15%)' }} src={image1} alt="First slide" />
+                            <img className="first-slide" style={{ width: '80%', transform: 'translateX(-15%)' }} src={image1} alt="First slide" />
                         </div>
-                        <div class="container">
-                            <div class="carousel-caption relative">
+                        <div className="container">
+                            <div className="carousel-caption relative">
                                 <h1>{name1}</h1>
                                 <p>{desc1}</p>
-                                <a class="buynow" href="#/">Buy Now</a>
+                                <a className="buynow" href="#/">Buy Now</a>
 
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                         <div style={{ transform: 'translateX(20%)' }}>
-                            <img class="second-slide" style={{ width: '80%', transform: 'translateX(-15%)' }} src={image2} alt="Second slide" />
+                            <img className="second-slide" style={{ width: '80%', transform: 'translateX(-15%)' }} src={image2} alt="Second slide" />
                         </div>
-                        <div class="container">
-                            <div class="carousel-caption relative">
+                        <div className="container">
+                            <div className="carousel-caption relative">
                                 <h1>{name2}</h1>
                                 <p>{desc2}</p>
-                                <a class="buynow" href="#/">Buy Now</a>
+                                <a className="buynow" href="#/">Buy Now</a>
 
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                         <div style={{ transform: 'translateX(20%)' }}>
-                            <img class="third-slide" style={{ width: '80%', transform: 'translateX(-15%)' }} src={image3} alt="Third slide" />
+                            <img className="third-slide" style={{ width: '80%', transform: 'translateX(-15%)' }} src={image3} alt="Third slide" />
                         </div>
-                        <div class="container">
-                            <div class="carousel-caption relative">
+                        <div className="container">
+                            <div className="carousel-caption relative">
                                 <h1>{name3}</h1>
                                 <p>{desc3}</p>
-                                <a class="buynow" href="#/">Buy Now</a>
+                                <a className="buynow" href="#/">Buy Now</a>
 
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                         <div style={{ transform: 'translateX(20%)' }}>
-                            <img class="fourth-slide" style={{ width: '80%', transform: 'translateX(-15%)' }} src={image4} alt="Fourth slide" />
+                            <img className="fourth-slide" style={{ width: '80%', transform: 'translateX(-15%)' }} src={image4} alt="Fourth slide" />
                         </div>
-                        <div class="container">
-                            <div class="carousel-caption relative">
+                        <div className="container">
+                            <div className="carousel-caption relative">
                                 <h1>{name4}</h1>
                                 <p>{desc4}</p>
-                                <a class="buynow" href="#/">Buy Now</a>
+                                <a className="buynow" href="#/">Buy Now</a>
 
                             </div>
                         </div>
                     </div>
 
                 </div>
-                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                    <i class='fa fa-angle-left'></i>
+                <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <i className='fa fa-angle-left'></i>
                 </a>
-                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                    <i class='fa fa-angle-right'></i>
+                <a className="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <i className='fa fa-angle-right'></i>
                 </a>
             </div>
         </section >
