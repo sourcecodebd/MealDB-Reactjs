@@ -1,0 +1,33 @@
+[0925/084931.411:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[0925/084931.441:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/085931.456:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/085931.498:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\ASUS\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\2ec4ee52-5eaa-46fb-8a18-87a1b038b628: The system cannot find the path specified. (0x3)
+[0925/085931.507:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\ASUS\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\3d70cc8f-3406-4899-9d1c-ec2ac064ec59: The system cannot find the path specified. (0x3)
+[0925/085931.531:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0925/085931.531:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/085931.532:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/090431.451:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/091931.460:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/093431.466:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/094931.477:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/100431.487:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/101931.493:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/103431.500:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/104931.768:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/105919.800:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/110431.774:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/111931.779:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/113431.787:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/114931.797:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/120431.804:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/121931.817:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/123431.830:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/124931.838:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/130431.847:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/131931.850:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/133431.857:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/134931.859:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/140431.873:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/141931.881:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/143431.889:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0925/144931.896:ERROR:crash_report_database_win.cc(455)] unexpected header

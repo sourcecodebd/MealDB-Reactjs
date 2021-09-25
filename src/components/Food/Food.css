@@ -1,0 +1,10 @@
+.description-p{
+    margin: 10px; 
+    text-align: justify; 
+    height: 200px; 
+    overflow: scroll
+}
+
+.description-p::-webkit-scrollbar{
+    display: none;
+}
